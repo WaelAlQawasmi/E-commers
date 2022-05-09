@@ -1,0 +1,101 @@
+
+#myord{text-align: center;
+    position: fixed;
+   background-color: white;
+    z-index: 999999;
+    top: 26vh;
+    width: 100%;
+    display:none;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+   
+   
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+#myInput {
+    position: relative;
+    background-image: url(https://cms-assets.tutsplus.com/uploads/users/523/posts/27345/preview_image/search-icon-large.png);
+    background-size: contain;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    width: 80%;
+    right: -6%;
+    text-align: center;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-right: 2%;
+    border-radius: 10px;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+   #myUL{
+        display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+    #select{
+            border: none;
+    outline: none;
+    }
+    .w-100 {
+    height: 90vh;
+    width: auto;
+}
+.fa{
+    display: inline-block;
+    font-size: 35px;
+   
+    margin-left: 32%;
+}
+    .card  {
+           
+
+        display:block;
+    margin: 2%;
+         margin-top: .25vh;
+    }
+    @media screen and (max-width: 992px) {
+    .w-100 {
+    height: 70vh;
+    width: auto;
+}
+}
+.order {width:33%;
+color: #000000b0;
+    border: none;
+
+    background-color: #f5f7f900;
+     border-color: white; 
+}
+.order:hover {
+color:#2196f3;
+    background-color: #f4f5f7;
+    border-color: #c4daea;
+}
+#num{
+ 
+    color: white;
+    position: absolute;
+    top: 0vh;
+    left: 21%;
+    background-color: #ff00006e;
+    padding: .00% .45%;
+    border-radius: 21px;
+
+}
+.number{
+        width: 33%;
+    text-align: center;
+    border: 1px solid #0000000a;
+    border-radius: 10px;
+    font-weight: bold;
+}
